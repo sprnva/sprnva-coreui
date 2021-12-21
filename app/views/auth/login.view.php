@@ -55,13 +55,13 @@ use App\Core\Request;
                                     <p class="text-medium-emphasis">Sign In to your account</p>
                                     <div class="input-group mb-3"><span class="input-group-text">
                                             <svg class="icon">
-                                                <use xlink:href="<?= public_url('/assets/coreui/assets/icons/user.svg') ?>"></use>
+                                                <use xlink:href="<?= public_url('/assets/coreui/assets/icons/coreui/free-symbol-defs.svg#cui-user') ?>"></use>
                                             </svg></span>
                                         <input class="form-control" type="text" placeholder="Username" name="username" autocomplete="off" autofocus value="<?= old('username') ?>">
                                     </div>
                                     <div class="input-group mb-4"><span class="input-group-text">
                                             <svg class="icon">
-                                                <use xlink:href="<?= public_url('/assets/coreui/assets/icons/sprites/free.svg#cil-lock-locked') ?>"></use>
+                                                <use xlink:href="<?= public_url('/assets/coreui/assets/icons/coreui/free-symbol-defs.svg#cui-lock-locked') ?>"></use>
                                             </svg></span>
                                         <input class="form-control" type="password" placeholder="Password" name="password" autocomplete="off">
                                     </div>

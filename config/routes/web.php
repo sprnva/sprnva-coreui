@@ -13,8 +13,7 @@
 use App\Core\Routing\Route;
 
 Route::get('/', function () {
-    $pageTitle = "Welcome";
-    return view('/welcome', compact('pageTitle'));
+    redirect('/login');
 });
 
 Route::get('/home', ['WelcomeController@home', ['auth']]);
